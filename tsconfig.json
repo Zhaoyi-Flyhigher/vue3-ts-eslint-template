@@ -1,0 +1,41 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module": "esnext",
+      "strict": false,
+      "jsx": "preserve",
+      "importHelpers": true,
+      "moduleResolution": "node",
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "sourceMap": true,
+      "baseUrl": ".",
+      "types": ["element-plus/global"],
+      "paths": {
+        "@/*": ["src/*"]
+      },
+      "lib": [
+        "esnext",
+        "dom",
+        "dom.iterable",
+        "scripthost"
+      ]
+    },
+    "include": [
+      "src",
+      "env.d.ts",
+      "src/**/*.ts",
+      "src/**/*.tsx", 
+      "src/index.ts",
+      "./.eslintrc.js",
+      "src/**/*.vue"
+      // "tests/**/*.ts",
+      // "tests/**/*.tsx",
+    ],
+    "exclude": [
+      "node_modules",
+      "dist",
+    ]
+  }
+  
