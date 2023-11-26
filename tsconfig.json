@@ -29,7 +29,9 @@
       "src/**/*.tsx", 
       "src/index.ts",
       "./.eslintrc.js",
-      "src/**/*.vue"
+      "src/**/*.vue",
+      "build/**/*.js",
+      "components.d.ts"
       // "tests/**/*.ts",
       // "tests/**/*.tsx",
     ],

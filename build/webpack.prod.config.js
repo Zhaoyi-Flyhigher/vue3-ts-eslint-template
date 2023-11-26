@@ -11,15 +11,15 @@ const prodConfig = {
         rules: [
             {
                 test: /\.css$/, 
-                use:[MiniCssExtractPlugin.loader,'vue-style-loader',"css-loader","postcss-loader"]
+                use:[MiniCssExtractPlugin.loader,"css-loader","postcss-loader"]
             },
             {
                 test: /\.less$/, 
-                use:[MiniCssExtractPlugin.loader,'vue-style-loader',"css-loader","postcss-loader","less-loader"]
+                use:[MiniCssExtractPlugin.loader,"css-loader","postcss-loader","less-loader"]
             },
             {
                 test: /\.s[ac]ss$/i, 
-                use:[MiniCssExtractPlugin.loader, 'vue-style-loader',"css-loader","postcss-loader","sass-loader"]
+                use:[MiniCssExtractPlugin.loader,"css-loader","postcss-loader","sass-loader"]
             }
         ]
     },
